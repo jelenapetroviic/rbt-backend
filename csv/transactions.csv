@@ -1,0 +1,5 @@
+type,amount,date,description,category
+expense,12.50,2026-10-08,Lunch,Eating out
+income,300.00,2026-10-09,,Other
+expense,45.90,2026-10-10,"Groceries, weekly",Other
+expense,8.00,2026-10-11,Coffee,eating out

@@ -1,0 +1,15 @@
+[project]
+name = "budget-tracker-api"
+version = "1.0.0"
+description = "REST API for a personal budget tracker."
+requires-python = ">=3.12"
+
+# The app that "fastapi dev" and "fastapi run" start.
+[tool.fastapi]
+entrypoint = "app.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# No cache folder: the Docker image has no writable folder for it.
+addopts = "-p no:cacheprovider"
